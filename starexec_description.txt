@@ -1,1 +1,0 @@
-Keep it Simple bare metal SAT solver with default configuration
