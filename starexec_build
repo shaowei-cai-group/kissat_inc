@@ -1,0 +1,5 @@
+#!/bin/sh
+cd sources
+chmod a+x ./configure ./scripts/*.sh
+./configure --competition && make -j
+cp ./build/kissat ../bin/kissat
